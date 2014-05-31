@@ -1,0 +1,6 @@
+Start juba:
+jubaregression -f rent.json &
+
+Run JubaClient(Consists training and testing set):
+cd python
+python jubahomes.py -a  ../dat/myhome  -t ../dat/rent-data.csv
